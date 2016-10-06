@@ -2,12 +2,16 @@
 class FPX_B_CAF_arifle_C7A2 : rhs_weap_m16a4_carryhandle
 {
   scope = 1;
-  class LinkedItems {
+  class LinkedItems { //key: LinkedItemsOptic(CowsSlot), LinkedItemsUnder(UnderBarrelSlot), LinkedItemsAcc(PointerSlot), -->BarrelSlot???<--
     class LinkedItemsOptic {
       item = "RH_c79";
       slot = "CowsSlot";
     };
-    // Link a side item to it as well, PEQ15 RH_peq15b
+    class LinkedItemsAcc {
+      item = "RH_peq15b";
+      slot = "PointerSlot";
+    };
+    // Link a side item to it as well, PEQ15 RH_peq15b - DONE BY CROGUY
   };
   displayName = "C7A2";
 };
@@ -19,7 +23,11 @@ class FPX_B_CAF_arifle_C8A3 : rhs_weap_m4a1_carryhandle
       item = "CUP_optic_HoloBlack";
       slot = "CowsSlot";
     };
-    // Link a side item to it as well, PEQ15 RH_peq15b
+    class LinkedItemsAcc {
+      item = "RH_peq15b";
+      slot = "PointerSlot";
+    };
+    // Link a side item to it as well, PEQ15 RH_peq15b - DONE BY CROGUY
   };
   displayName = "C8A3";
 };
@@ -36,7 +44,7 @@ class FPX_B_CAF_arifle_C9LMG : CUP_lmg_m249_pip1
 };
 class FPX_B_CAF_arifle_A10T : RH_Mk11 {
   scope = 1;
-  class LinkedItems { //key: LinkedItemsOptic(CowsSlot), LinkedItemsUnder(UnderBarrelSlot), LinkedItemsAcc(PointerSlot), -->BarrelSlot???<--
+  class LinkedItems {
     class LinkedItemsOptic {
       item = "optic_DMS";
       slot = "CowsSlot";
