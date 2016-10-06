@@ -34,16 +34,19 @@ class FPX_B_CAF_arifle_C9LMG : CUP_lmg_m249_pip1
   };
   displayName = "C9 LMG";
 };
-class FPX_B_CAF_arifle_RH_Mk11  {
+class FPX_B_CAF_arifle_A10T : RH_Mk11 {
   scope = 1;
   class LinkedItems {
     class LinkedItemsOptic {
       item = "optic_DMS";
       slot = "CowsSlot";
     };
-    // Add Harris HBLM
+    class LinkedItemsUnder {
+      item = "RH_HBLM";
+      slot = "UnderBarrelSlot";
+    };
   };
-  displayName = "AR-10T MRS/SASW;
+  displayName = "AR-10T MRS/SASW";
 };
 class FPX_B_CAF_V_PlateCarrier1_TW : V_PlateCarrier1_rgr { // TODO
   scope = 2;
