@@ -5,35 +5,47 @@ FPx Factions is a joint effort between both Croguy and Versten in an attempt to 
 
 _NATO_
 * Albanian Land Force (ALF), Woodland
-* Belgian Land Component (BLC), Woodland
+* BeNeLux JTF (BNL), Woodland
 * Bulgarian Land Forces (BLF), Woodland
 * Canadian Armed Forces (CAF), Woodland and Arid - in progress
 * Defence Forces of Croatia (DFC), Woodland
 * Danish Defence Army (DDA), Woodland and Arid
-* Estonian Ground Forces (EGF), Woodland
+* Baltic Coalition Troops (BCT), Woodland
 * French Armed Forces (FAF), Woodland and Arid
 * Cold War Bundeswehr (CWB), Retro Faction
 * Hellenic Armed Forces (HAF), Arid
 * Hungarian Ground Army (HGA), Woodland
 * Italian Armed Forces (IAF), Arid
-* National Armed Forces of Latvia (NAF), Woodland
-* Lithuanian Land Force (LLF), Woodland
 * Royal Army of Netherlands (RAN), Woodland
-* Royal Norwegian Forces (RNF), Woodland/Arctic
+* Royal Norwegian Forces (RNF), Woodland
+* Task Force Iberia (TFI), Arid
+* Army of Republic of Vietnam (ARV), Jungle
+* Special Operations Europe (SOE), all
 
 _INDFOR_
-* Afghan National Army (ANA)
-* Amazonian Security Troops (AST)
-* Black Element Corp. (BEC)
-* Carribean Militia Troops (CMT)
-* Indian Military Guard (IMG)
-* Japanese Self-Defense Force (JSF)
-* Mexican Military Forces (MMF)
-* Turkish Coup Forces (TCF)
-* West African Coalition (WAC)
+* Afghan National Army (ANA), Arid
+* Amazon Security Troops (AST), Jungle
+* Black Element Corporation (BEC), Mercenary
+* Carribean Militia Troops (CMT), Jungle
+* Indian Military Guard (IMG), Arid
+* Japanese Self-Defense Force (JSF), Woodland
+* Pakistani Army (PKA), Arid
+* Mexican Military Forces (MMF), Arid
+* Militares Sans Frontieres (MSF), Mercenary
+* Turkish Coup Forces (TCF), Arid
+* West African Coalition (WAC), Arid
 
 _OPFOR_
-*North Korean Military (NKM)
+* Anti-Zion Forces (AZF)
+* Carribean Communist Rebels (CCR)
+* Warsaw Pact Militaries (WPM)
+* North Korean Military (NKM)
+* People's Liberation Army (PLA)
+* Soviet-Afghan Bloc (SAB) - expansion to Red Army?
+* Syrian Arab Army (SAA)
+* North Vietnam Army (NVA)
+* Urban Rebel Militia (URM)
+* Yugoslav People's Army (YPA)
 
 As well as others (TBD)
 
