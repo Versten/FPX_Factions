@@ -42,7 +42,7 @@ class FPX_B_CAF_arifle_C9LMG : CUP_lmg_m249_pip1
   };
   displayName = "C9 LMG";
 };
-class FPX_B_CAF_arifle_A10T : RH_Mk11 {
+class FPX_B_CAF_arifle_AR10T : RH_Mk11 {
   scope = 1;
   class LinkedItems {
     class LinkedItemsOptic {
