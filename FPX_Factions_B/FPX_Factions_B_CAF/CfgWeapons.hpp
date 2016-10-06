@@ -36,12 +36,12 @@ class FPX_B_CAF_arifle_C9LMG : CUP_lmg_m249_pip1
 };
 class FPX_B_CAF_arifle_A10T : RH_Mk11 {
   scope = 1;
-  class LinkedItems {
+  class LinkedItems { //key: LinkedItemsOptic(CowsSlot), LinkedItemsUnder(UnderBarrelSlot), LinkedItemsAcc(PointerSlot), -->BarrelSlot???<--
     class LinkedItemsOptic {
       item = "optic_DMS";
       slot = "CowsSlot";
     };
-    class LinkedItemsUnder {
+    class LinkedItemsUnder { 
       item = "RH_HBLM";
       slot = "UnderBarrelSlot";
     };
