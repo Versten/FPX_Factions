@@ -11,7 +11,6 @@ class FPX_B_CAF_arifle_C7A2 : rhs_weap_m16a4_carryhandle
       item = "RH_peq15b";
       slot = "PointerSlot";
     };
-    // Link a side item to it as well, PEQ15 RH_peq15b - DONE BY CROGUY
   };
   displayName = "C7A2";
 };
@@ -27,7 +26,6 @@ class FPX_B_CAF_arifle_C8A3 : rhs_weap_m4a1_carryhandle
       item = "RH_peq15b";
       slot = "PointerSlot";
     };
-    // Link a side item to it as well, PEQ15 RH_peq15b - DONE BY CROGUY
   };
   displayName = "C8A3";
 };
