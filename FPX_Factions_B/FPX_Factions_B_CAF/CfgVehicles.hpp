@@ -124,7 +124,7 @@ class FPX_B_CAF_Soldier_AR : B_Soldier_02_F  {
   respawnLinkedItems[] = {"FPX_B_CAF_H_Helmet_TW", "FPX_B_CAF_V_PlateCarrier2_TW", "ItemMap", "ItemCompass", "ItemRadio"};
 };
 
-class FPX_B_CAF_Soldier_Mark : FPX_B_CAF_Soldier {
+class FPX_B_CAF_Soldier_M : FPX_B_CAF_Soldier {
   displayName="Marksman";
   weapons[] = {
     "FPX_B_CAF_arifle_RH_Mk11",
