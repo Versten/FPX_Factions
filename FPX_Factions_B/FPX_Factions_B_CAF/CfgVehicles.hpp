@@ -147,7 +147,7 @@ class FPX_B_CAF_Soldier_M : FPX_B_CAF_Soldier {
     "SmokeShell"
   };
   respawnWeapons[] = {
-    "FPX_B_CAF_arifle_RH_Mk11",
+    "FPX_B_CAF_arifle_AR10T",
     "RH_p226",
     "Put",
     "Throw"
