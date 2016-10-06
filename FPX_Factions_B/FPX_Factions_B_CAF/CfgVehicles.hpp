@@ -6,7 +6,7 @@ class FPX_B_CAF_Soldier : B_Soldier_F {
   editorSubcategory = "FPX_EDSubCat_B_CAF_Men_W";
   displayName = "Rifleman";
   uniformClass = "FPX_B_CAF_U_CombatUniform_TW";
-  hiddenSelections[] = {"camo"};
+  hiddenSelections[] = {"camo", "insignia", "Clan"};
   hiddenSelectionsTextures[] = {"FPX_Factions_B_DTA\FPX_B_CAF\Data\U_TW.paa"};
   hiddenSelectionsMaterials[] = {"\FPX_Factions_B_DTA\Data\crye_G3.rvmat"};
   weapons[] = {"FPX_B_CAF_arifle_C7A2","RH_p226", "Put", "Throw"};
@@ -56,6 +56,9 @@ class FPX_B_CAF_Soldier : B_Soldier_F {
 };
 class FPX_B_CAF_Soldier_LAT : FPX_B_CAF_Soldier {
   displayName = "Rifleman (AT)";
+  nameSound = "veh_infantry_AT_s";
+  icon = "iconManAT";
+  threat[] = {1,0.7,0.3};
   weapons[] = {"FPX_B_CAF_arifle_C7A2","RH_p226", "Put", "Throw", "CUP_launch_RPG18"};
   backpack = "B_AssaultPack_rgr";
   respawnWeapons[] = {"FPX_B_CAF_arifle_C7A2","RH_p226", "Put", "Throw", "CUP_launch_RPG18"};

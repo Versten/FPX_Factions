@@ -27,8 +27,10 @@ class FPX_B_CAF_V_PlateCarrier1_TW : V_PlateCarrier1_rgr { // TODO
   scope = 2;
   displayName = "Carrier Lite (CADPAT TW)";
   author = "Killoch, FPX Mod Team";
+  hiddenSelections[] = {"camo"};
   hiddenSelectionsTextures[] = {"FPX_Factions_B_DTA\FPX_B_CAF\Data\V_TW.paa"};
-  class ItemInfo : VestItem {
+  class ItemInfo : ItemInfo {
+    hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"FPX_Factions_B_DTA\FPX_B_CAF\Data\V_TW.paa"};
   };
 };
@@ -36,8 +38,10 @@ class FPX_B_CAF_V_PlateCarrier2_TW : V_PlateCarrier2_rgr { // TODO
   scope = 2;
   displayName = "Carrier Rig (CADPAT TW)";
   author = "Killoch, FPX Mod Team";
+  hiddenSelections[] = {"camo"};
   hiddenSelectionsTextures[] = {"FPX_Factions_B_DTA\FPX_B_CAF\Data\V_TW.paa"};
-  class ItemInfo : VestItem {
+  class ItemInfo : ItemInfo {
+    hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"FPX_Factions_B_DTA\FPX_B_CAF\Data\V_TW.paa"};
   };
 };

@@ -20,6 +20,9 @@ class CfgFactionClasses
     displayName = "CAF";
   };
 };
+class CfgEditorSubcategories {
+  #include "FPX_Factions_B_CAF\CfgEditorSubcategories.hpp"
+};
 class CfgVehicles
 {
   class B_Soldier_F;
@@ -38,8 +41,13 @@ class CfgWeapons
   class Uniform_Base: ItemCore {
 		class ItemInfo;
 	};
-  class V_PlateCarrier1_rgr;
-  class V_PlateCarrier2_rgr;
+  class Vest_NoCamo_Base;
+  class V_PlateCarrier1_rgr : Vest_NoCamo_Base {
+    class ItemInfo;
+  };
+  class V_PlateCarrier2_rgr : Vest_NoCamo_Base {
+    class ItemInfo;
+  };
   class H_HelmetIA;
   class rhs_weap_m16a4_carryhandle;
   class rhs_weap_m4a1_carryhandle;
