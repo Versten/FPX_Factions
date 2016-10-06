@@ -124,7 +124,7 @@ class FPX_B_CAF_Soldier_AR : B_Soldier_02_F  {
   respawnLinkedItems[] = {"FPX_B_CAF_H_Helmet_TW", "FPX_B_CAF_V_PlateCarrier2_TW", "ItemMap", "ItemCompass", "ItemRadio"};
 };
 
-class FPX_B_CAF_Soldier_Mark : FPX_B_CAF_Soldier {
+class FPX_B_CAF_Soldier_M : FPX_B_CAF_Soldier {
   displayName="Marksman";
   weapons[] = {
     "FPX_B_CAF_arifle_RH_Mk11",
@@ -132,4 +132,40 @@ class FPX_B_CAF_Soldier_Mark : FPX_B_CAF_Soldier {
     "Put",
     "Throw"
   };
+  magazines[] = {
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "RH_15Rnd_9x19_SIG",
+    "RH_15Rnd_9x19_SIG",
+    "Put",
+    "Throw",
+    "HandGrenade",
+    "SmokeShell"
+  };
+  respawnWeapons[] = {
+    "FPX_B_CAF_arifle_AR10T",
+    "RH_p226",
+    "Put",
+    "Throw"
+  };
+  respawnMagazines[] = {
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "20Rnd_762x51_Mag",
+    "RH_15Rnd_9x19_SIG",
+    "RH_15Rnd_9x19_SIG",
+    "Put",
+    "Throw",
+    "HandGrenade",
+    "SmokeShell"
+  };
+  linkedItems[] = {"FPX_B_CAF_H_Booniehat_TW", "FPX_B_CAF_V_PlateCarrier1_TW", "ItemMap", "ItemCompass", "ItemRadio"}; // V_PlateCarrier2_rgr_noflag_F - > carrier rig
+  respawnLinkedItems[] = {"FPX_B_CAF_H_Booniehat_TW", "FPX_B_CAF_V_PlateCarrier1_TW", "ItemMap", "ItemCompass", "ItemRadio"};
 };
