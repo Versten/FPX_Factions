@@ -2,6 +2,7 @@ About FPx Factions
 ======
 
 FPx Factions is a joint effort between both Croguy and Versten in an attempt to author a set of maintained factions with uniforms from FP_Uniforms, as well as other sources, for FPARMA. Proposals include: 
+
 _NATO_
 * Albanian Land Force (ALF), Woodland
 * Belgian Land Component (BLC), Woodland
@@ -21,7 +22,18 @@ _NATO_
 * Royal Norwegian Forces (RNF), Woodland/Arctic
 
 _INDFOR_
-* Black Element Corp. (BE)
-* West African 
+* Afghan National Army (ANA)
+* Amazonian Security Troops (AST)
+* Black Element Corp. (BEC)
+* Carribean Militia Troops (CMT)
+* Indian Military Guard (IMG)
+* Japanese Self-Defense Force (JSF)
+* Mexican Military Forces (MMF)
+* Turkish Coup Forces (TCF)
+* West African Coalition (WAC)
+
+_OPFOR_
+*North Korean Military (NKM)
+
 As well as others (TBD)
 
