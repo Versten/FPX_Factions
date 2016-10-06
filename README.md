@@ -16,11 +16,11 @@ _NATO_
 * Hellenic Armed Forces (HAF), Arid
 * Hungarian Ground Army (HGA), Woodland
 * Italian Armed Forces (IAF), Arid
-* Royal Army of Netherlands (RAN), Woodland
 * Royal Norwegian Forces (RNF), Woodland
 * Task Force Iberia (TFI), Arid
 * Army of Republic of Vietnam (ARV), Jungle
 * Special Operations Europe (SOE), all
+* Swedish International Brigade (SIB), Woodland and Arid
 
 _INDFOR_
 * Afghan National Army (ANA), Arid
