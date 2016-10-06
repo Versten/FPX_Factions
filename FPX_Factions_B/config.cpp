@@ -31,12 +31,16 @@ class CfgWeapons
 {
   class Default;
 	class ItemCore: Default{};
+  class VestItem;
   class UniformItem: ItemCore {
 		class ItemInfo;
 	};
   class Uniform_Base: ItemCore {
 		class ItemInfo;
 	};
+  class V_PlateCarrier1_rgr;
+  class V_PlateCarrier2_rgr;
+  class H_HelmetIA;
   class rhs_weap_m16a4_carryhandle;
   class rhs_weap_m4a1_carryhandle;
   #include "FPX_Factions_B_CAF\CfgWeapons.hpp"
