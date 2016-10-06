@@ -3,7 +3,7 @@ class CfgPatches
   class FPX_Factions_B {
     name = "FPX Factions - BLUFOR";
     units[] = {
-      //#include "FPX_Factions_B_CAF\CfgPatches_Units.hpp"
+      #include "FPX_Factions_B_CAF\CfgPatches_Units.hpp"
     };
     weapons[] = {};
     requiredAddons[] = {
@@ -28,6 +28,7 @@ class CfgVehicles
   class B_Soldier_F;
 	class B_Soldier_02_F;
 	class B_Soldier_03_F;
+
   #include "FPX_Factions_B_CAF\CfgVehicles.hpp"
 };
 class CfgWeapons
@@ -51,5 +52,7 @@ class CfgWeapons
   class H_HelmetIA;
   class rhs_weap_m16a4_carryhandle;
   class rhs_weap_m4a1_carryhandle;
+  class CUP_lmg_m249_pip1;
+
   #include "FPX_Factions_B_CAF\CfgWeapons.hpp"
 };

@@ -23,6 +23,17 @@ class FPX_B_CAF_arifle_C8A3 : rhs_weap_m4a1_carryhandle
   };
   displayName = "C8A3";
 };
+class FPX_B_CAF_arifle_C9LMG : CUP_lmg_m249_pip1
+{
+  scope = 1;
+  class LinkedItems {
+    class LinkedItemsOptic {
+      item = "RH_c79";
+      slot = "CowsSlot";
+    };
+  };
+  displayName = "C9 LMG";
+};
 class FPX_B_CAF_V_PlateCarrier1_TW : V_PlateCarrier1_rgr { // TODO
   scope = 2;
   displayName = "Carrier Lite (CADPAT TW)";
