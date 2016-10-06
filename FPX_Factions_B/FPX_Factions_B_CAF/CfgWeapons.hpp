@@ -34,6 +34,17 @@ class FPX_B_CAF_arifle_C9LMG : CUP_lmg_m249_pip1
   };
   displayName = "C9 LMG";
 };
+class FPX_B_CAF_arifle_RH_Mk11  {
+  scope = 1;
+  class LinkedItems {
+    class LinkedItemsOptic {
+      item = "optic_DMS";
+      slot = "CowsSlot";
+    };
+    // Add Harris HBLM
+  };
+  displayName = "AR-10T MRS/SASW;
+};
 class FPX_B_CAF_V_PlateCarrier1_TW : V_PlateCarrier1_rgr { // TODO
   scope = 2;
   displayName = "Carrier Lite (CADPAT TW)";
@@ -79,6 +90,21 @@ class FPX_B_CAF_U_CombatUniform_TW : Uniform_Base {
   class ItemInfo: UniformItem {
 		uniformModel = "-";
 		uniformClass = "FPX_B_CAF_Soldier";
+		containerClass = "Supply20";
+		mass = 5;
+	};
+};
+class FPX_B_CAF_U_CombatUniform_Tee_TW : Uniform_Base {
+  scope = 2;
+  displayName = "Combat Fatigues (CADPAT TW, Tee)";
+  author = "Killoch, FPX Mod Team";
+  picture = ""; // default uniform image
+  model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+  /*hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {""};*/
+  class ItemInfo: UniformItem {
+		uniformModel = "-";
+		uniformClass = "FPX_B_CAF_Soldier_AR";
 		containerClass = "Supply20";
 		mass = 5;
 	};
