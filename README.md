@@ -7,7 +7,7 @@ _BLUFOR_
 * BeNeLux JTF (BNL), Woodland and Arid
 * Balkan Joint Bloc (BJB), Woodland
 * Canadian Armed Forces (CAF), Woodland and Arid - in progress
-* Croatian-Slovenian Defence (CSD), Woodland
+* Adriatic Task Force (ATF), Woodland
 * Danish Defence Army (DDA), Woodland and Arid
 * Baltic Coalition Troops (BCT), Woodland
 * French Armed Forces (FAF), Woodland and Arid
