@@ -1,3 +1,9 @@
+"FPX_I_BEC_Soldier_TL",
 "FPX_I_BEC_Soldier_G36",
 "FPX_I_BEC_Soldier_AK",
-"FPX_B_CAF_Soldier_LAT"
+"FPX_I_BEC_Soldier_Crew",
+"FPX_I_BEC_Soldier_Security",
+"FPX_I_BEC_Soldier_Func",
+"FPX_I_BEC_Soldier_AR",
+"FPX_I_BEC_Soldier_M",
+"FPX_I_BEC_Soldier_Medic"

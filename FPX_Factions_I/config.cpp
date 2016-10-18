@@ -43,16 +43,20 @@ class CfgWeapons
 		class ItemInfo;
 	};
   class Vest_NoCamo_Base;
-  class V_PlateCarrier1_rgr : Vest_NoCamo_Base {
+  /*class V_PlateCarrier1_rgr : Vest_NoCamo_Base {
     class ItemInfo;
   };
   class V_PlateCarrier2_rgr : Vest_NoCamo_Base {
     class ItemInfo;
-  };
-  class H_HelmetIA;
-  class rhs_weap_m16a4_carryhandle;
+  };*/
+  class srifle_DMR_05_blk_F;
+  /*class rhs_weap_m16a4_carryhandle;
   class rhs_weap_m4a1_carryhandle;
-  class CUP_lmg_m249_pip1;
+  class CUP_lmg_m249_pip1;*/
 
   #include "FPX_Factions_I_BEC\CfgWeapons.hpp"
 };
+class cfgGroups {
+	#include "FPX_Factions_I_BEC\CfgGroups.hpp"
+};
+
