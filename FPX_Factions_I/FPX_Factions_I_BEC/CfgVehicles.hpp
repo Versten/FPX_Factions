@@ -6,9 +6,9 @@ class FPX_I_BEC_Soldier_TL : I_Soldier_F {
   faction = "FPX_I_BEC";
   editorSubcategory = "FPX_EDSubCat_I_BEC_Men_Merc";
   displayName = "Team Leader";
-  uniformClass = "U_BG_Guerilla2_3";
+  uniformClass = "U_BG_Guerilla2_3"; //check this later
   hiddenSelections[] = {"camo", "insignia", "Clan"};
-  hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhk.paa"};
+  //hiddenSelectionsTextures[] = {"FP_UniformsEverywhereElse\SkinsUniform\FP_BlkKhk.paa"};
   weapons[] = {"hlc_rifle_auga1carb_t", "RH_g17", "Put", "Throw"};
   respawnWeapons[] = {"hlc_rifle_auga1carb_t", "RH_g17", "Put", "Throw"};
   items[] = {"FirstAidKit"};
