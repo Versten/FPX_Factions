@@ -1,14 +1,43 @@
 // CfgVehicles for FPX_B_CAF
-class FPX_B_CAF_Soldier : B_Soldier_F {
+class FPX_B_CAF_Soldier_Base_01 : B_Soldier_F {
   author = "FPX Mod Team";
-  scope = 2;
+  scope = 1;
+  side = 1;
   faction = "FPX_B_CAF";
   editorSubcategory = "FPX_EDSubCat_B_CAF_Men_W";
   displayName = "Rifleman";
   uniformClass = "FPX_B_CAF_U_CombatUniform_TW";
   hiddenSelections[] = {"camo", "insignia", "Clan"};
-  hiddenSelectionsTextures[] = {"FPX_Factions_B_DTA\FPX_B_CAF\Data\U_TW.paa"};
+  hiddenSelectionsTextures[] = {"\FPX_Factions_B_DTA\FPX_B_CAF\Data\U_TW.paa"};
   hiddenSelectionsMaterials[] = {"\FPX_Factions_B_DTA\Data\crye_G3.rvmat"};
+};
+class FPX_B_CAF_Soldier_Base_02 : B_Soldier_02_F {
+  author = "FPX Mod Team";
+  scope = 1;
+  side = 1;
+  faction = "FPX_B_CAF";
+  editorSubcategory = "FPX_EDSubCat_B_CAF_Men_W";
+  displayName = "Rifleman";
+  uniformClass = "FPX_B_CAF_U_CombatUniform_Tee_TW";
+  hiddenSelections[] = {"camo", "insignia", "Clan"};
+  hiddenSelectionsTextures[] = {"\FPX_Factions_B_DTA\FPX_B_CAF\Data\U_TW.paa"};
+  hiddenSelectionsMaterials[] = {"\FPX_Factions_B_DTA\Data\crye_G3.rvmat"};
+};
+class FPX_B_CAF_Soldier_Base_03 : B_Soldier_03_F {
+  author = "FPX Mod Team";
+  scope = 1;
+  side = 1;
+  faction = "FPX_B_CAF";
+  editorSubcategory = "FPX_EDSubCat_B_CAF_Men_W";
+  displayName = "Rifleman";
+  uniformClass = "FPX_B_CAF_U_CombatUniform_TW";
+  hiddenSelections[] = {"camo", "insignia", "Clan"};
+  hiddenSelectionsTextures[] = {"\FPX_Factions_B_DTA\FPX_B_CAF\Data\U_TW.paa"};
+  hiddenSelectionsMaterials[] = {"\FPX_Factions_B_DTA\Data\crye_G3.rvmat"};
+};
+class FPX_B_CAF_Soldier : FPX_B_CAF_Soldier_Base_01 {
+  scope = 2;
+  displayName = "Rifleman";
   weapons[] = {"FPX_B_CAF_arifle_C7A2","RH_p226", "Put", "Throw"};
   respawnWeapons[] = {"FPX_B_CAF_arifle_C7A2","RH_p226", "Put", "Throw"};
   items[] = {"FirstAidKit"};
@@ -72,12 +101,11 @@ class FPX_B_CAF_Soldier_LAT : FPX_B_CAF_Soldier {
   backpack = "B_AssaultPack_rgr";
   respawnWeapons[] = {"FPX_B_CAF_arifle_C7A2","RH_p226", "Put", "Throw", "CUP_launch_RPG18"};
 };
-class FPX_B_CAF_Soldier_AR : B_Soldier_02_F  {
+class FPX_B_CAF_Soldier_AR : FPX_B_CAF_Soldier_Base_02  {
   hiddenSelections[] = {"camo", "insignia", "Clan"};
   hiddenSelectionsTextures[] = {"FPX_Factions_B_DTA\FPX_B_CAF\Data\U_TW.paa"};
   hiddenSelectionsMaterials[] = {"\FPX_Factions_B_DTA\Data\crye_G3.rvmat"};
   editorSubcategory = "FPX_EDSubCat_B_CAF_Men_W";
-  faction = "FPX_B_CAF";
   displayName = "Autorifleman";
   textSingular = "$STR_A3_nameSound_veh_infantry_MG_s";
 	textPlural = "$STR_A3_nameSound_veh_infantry_MG_p";
@@ -127,7 +155,7 @@ class FPX_B_CAF_Soldier_AR : B_Soldier_02_F  {
 class FPX_B_CAF_Soldier_M : FPX_B_CAF_Soldier {
   displayName="Marksman";
   weapons[] = {
-    "FPX_B_CAF_arifle_RH_Mk11",
+    "FPX_B_CAF_arifle_AR10T",
     "RH_p226",
     "Put",
     "Throw"

@@ -25,14 +25,19 @@ class CfgEditorSubcategories {
 };
 class CfgVehicles
 {
-  class B_Soldier_F;
-	class B_Soldier_02_F;
-	class B_Soldier_03_F;
+  class CAManBase;
+  class B_Soldier_base_F : CAManBase {
+    class Eventhandlers;
+  };
+  class B_Soldier_F : B_Soldier_base_F {};
+	class B_Soldier_02_F : B_Soldier_base_F {};
+	class B_Soldier_03_F : B_Soldier_base_F {};
 
   #include "FPX_Factions_B_CAF\CfgVehicles.hpp"
 };
 class CfgWeapons
 {
+  // Stock A3 declarations
   class Default;
 	class ItemCore: Default{};
   class VestItem;
@@ -50,9 +55,14 @@ class CfgWeapons
     class ItemInfo;
   };
   class H_HelmetIA;
+  // Mod-based declarations
+  // RHS
   class rhs_weap_m16a4_carryhandle;
   class rhs_weap_m4a1_carryhandle;
+  // CUP
   class CUP_lmg_m249_pip1;
+  // FP Mod Pack
+  class RH_Mk11;
 
   #include "FPX_Factions_B_CAF\CfgWeapons.hpp"
 };

@@ -1,8 +1,15 @@
 // TODO: scope=1 all of the entries here
+/* 
+// key: 
+  LinkedItemsOptic(CowsSlot) 
+  LinkedItemsUnder(UnderBarrelSlot) 
+  LinkedItemsAcc(PointerSlot)
+  -->BarrelSlot???<-- (Versten - LinkedItemsMuzzle (MuzzleSlot)?)
+*/
 class FPX_B_CAF_arifle_C7A2 : rhs_weap_m16a4_carryhandle
 {
   scope = 1;
-  class LinkedItems { //key: LinkedItemsOptic(CowsSlot), LinkedItemsUnder(UnderBarrelSlot), LinkedItemsAcc(PointerSlot), -->BarrelSlot???<--
+  class LinkedItems {
     class LinkedItemsOptic {
       item = "RH_c79";
       slot = "CowsSlot";
@@ -98,8 +105,8 @@ class FPX_B_CAF_U_CombatUniform_TW : Uniform_Base {
 	hiddenSelectionsTextures[] = {""};*/
   class ItemInfo: UniformItem {
 		uniformModel = "-";
-		uniformClass = "FPX_B_CAF_Soldier";
-		containerClass = "Supply20";
+		uniformClass = "FPX_B_CAF_Soldier_Base_01";
+		containerClass = "Supply40";
 		mass = 5;
 	};
 };
@@ -113,8 +120,8 @@ class FPX_B_CAF_U_CombatUniform_Tee_TW : Uniform_Base {
 	hiddenSelectionsTextures[] = {""};*/
   class ItemInfo: UniformItem {
 		uniformModel = "-";
-		uniformClass = "FPX_B_CAF_Soldier_AR";
-		containerClass = "Supply20";
+		uniformClass = "FPX_B_CAF_Soldier_Base_02";
+		containerClass = "Supply40";
 		mass = 5;
 	};
 };
