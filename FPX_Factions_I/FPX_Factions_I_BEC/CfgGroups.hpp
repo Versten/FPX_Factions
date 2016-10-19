@@ -83,6 +83,7 @@ class Indep {
 						vehicle = "FPX_I_BEC_Soldier_AK";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
+					};
 				};
 				class FPX_Factions_I_BEC_Machinegun {
 					name = "MG Team";
@@ -119,8 +120,7 @@ class Indep {
 					};
 				};
 			};
-			class SpecialForces
-			{
+			class SpecialForces {
 				name = "Civil Security Teams";
 				class FPX_Factions_I_BEC_Security {
 					name = "Security Attachment";
