@@ -26,7 +26,7 @@ _BLUFOR_
 _INDFOR_
 * Afghan National Army (ANA), Arid
 * Amazon Security Troops (AST), Jungle
-* Black Element Corporation (BEC), Mercenary
+* Black Element Corporation (BEC), Mercenary - COMPLETED
 * Carribean Militia Troops (CMT), Jungle
 * Indian Military Guard (IMG), Arid
 * Pakistani Army (PKA), Arid
