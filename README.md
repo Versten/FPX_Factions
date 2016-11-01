@@ -38,7 +38,7 @@ _INDFOR_
 _OPFOR_
 * Argentina Junta Troops (AJT), woodland
 * Anti-Zion Forces (AZF), arid
-* Carribean Communist Rebels (CCR), jungle
+* Carribean Communist Rebels (CCR), jungle - IN PROGRESS
 * Warsaw Pact Militaries (WPM), woodland
 * North Korean Military (NKM), woodland
 * People's Liberation Army (PLA), various
