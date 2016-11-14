@@ -4,11 +4,10 @@ About FPx Factions
 FPx Factions is a joint effort between both Croguy and Versten in an attempt to author a set of maintained factions with uniforms from FP_Uniforms, as well as other sources, for FPARMA. Proposals include: 
 
 _BLUFOR_
-* Albanian Land Force (ALF), Woodland
 * BeNeLux JTF (BNL), Woodland and Arid
 * Balkan Joint Bloc (BJB), Woodland
 * Canadian Armed Forces (CAF), Woodland and Arid - in progress
-* Croatian-Slovenian Defence (CSD), Woodland
+* Balkan Task Force (BTF), Woodland
 * Danish Defence Army (DDA), Woodland and Arid
 * Baltic Coalition Troops (BCT), Woodland
 * French Armed Forces (FAF), Woodland and Arid
