@@ -8,7 +8,7 @@ _BLUFOR_
 * Balkan Joint Bloc (BJB), Woodland
 * Canadian Armed Forces (CAF), Woodland and Arid - in progress
 * Balkan Task Force (BTF), Woodland
-* Danish Defence Army (DDA), Woodland and Arid
+* Nordic Coalition Forces (NCF), Woodland and Arid
 * Baltic Coalition Troops (BCT), Woodland
 * French Armed Forces (FAF), Woodland and Arid
 * Cold War Bundeswehr (CWB), Retro Faction
