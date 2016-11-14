@@ -7,8 +7,8 @@ _BLUFOR_
 * BeNeLux JTF (BNL), Woodland and Arid
 * Balkan Joint Bloc (BJB), Woodland
 * Canadian Armed Forces (CAF), Woodland and Arid - in progress
-* Adriatic Task Force (ATF), Woodland
-* Danish Defence Army (DDA), Woodland and Arid
+* Balkan Task Force (BTF), Woodland
+* Nordic Coalition Forces (NCF), Woodland and Arid
 * Baltic Coalition Troops (BCT), Woodland
 * French Armed Forces (FAF), Woodland and Arid
 * Cold War Bundeswehr (CWB), Retro Faction
@@ -26,7 +26,7 @@ _BLUFOR_
 _INDFOR_
 * Afghan National Army (ANA), Arid
 * Amazon Security Troops (AST), Jungle
-* Black Element Corporation (BEC), Mercenary
+* Black Element Corporation (BEC), Mercenary - COMPLETED
 * Carribean Militia Troops (CMT), Jungle
 * Indian Military Guard (IMG), Arid
 * Pakistani Army (PKA), Arid
@@ -38,7 +38,7 @@ _INDFOR_
 _OPFOR_
 * Argentina Junta Troops (AJT), woodland
 * Anti-Zion Forces (AZF), arid
-* Carribean Communist Rebels (CCR), jungle
+* Carribean Communist Rebels (CCR), jungle - COMPLETED
 * Warsaw Pact Militaries (WPM), woodland
 * North Korean Military (NKM), woodland
 * People's Liberation Army (PLA), various
